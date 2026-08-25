@@ -1,0 +1,11 @@
+DECLARE
+ i NUMBER:=1;
+ n NUMBER:=&n;
+BEGIN
+ WHILE i<=n LOOP 
+ 
+ DBMS_OUTPUT.PUT_LINE(i);
+ i:=i+1;
+ END LOOP;
+END;
+/
